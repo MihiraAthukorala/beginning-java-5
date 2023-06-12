@@ -24,6 +24,34 @@
 
 // Get multiplication Answer of two input numbers
 
+// import java.util.*;
+
+// class Multiplication {
+
+//     public static void main(String args[]) {
+
+//         System.out.println("Get Multiplication Answer Of Two Keyboard Input Numbers \n");
+
+//         Scanner input = new Scanner(System.in);
+
+//         int x,y,z;
+
+//         System.out.print("Input Your 1st Number : ");
+//         x=input.nextInt();
+
+//         System.out.print("Input Your 2nd Number : ");
+//         y=input.nextInt();
+
+//         z=x*y;
+//         System.out.print("Your Answer Is : " +z);
+
+//     }
+// }
+
+
+
+// Get Multiplication Answer In Key Board Input Numbers
+
 import java.util.*;
 
 class Multiplication {
@@ -37,13 +65,13 @@ class Multiplication {
         int x,y,z;
 
         System.out.print("Input Your 1st Number : ");
-        x=input.nextInt();
+        x = input.nextInt();
 
         System.out.print("Input Your 2nd Number : ");
-        y=input.nextInt();
+        y = input.nextInt();
 
         z=x*y;
-        System.out.print("Your Answer Is : " +z);
 
-    }
+        System.out.print("Your Answer Is : " +z);
+    } 
 }
